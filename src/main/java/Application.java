@@ -11,7 +11,7 @@ public class Application {
         int result = num1 + num2;
 
         // Display the result
-        System.out.println("The result of addition is: " + result);
+        System.out.println("The result : " + result);
 
     }
 }
