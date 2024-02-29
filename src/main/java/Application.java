@@ -1,17 +1,30 @@
 import java.util.Calendar;
+import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("정수 하나를 입력해주세요.");
 
-        int num1 = 5;
-        int num2 = 3;
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        // Perform addition operation
-        int result = num1 + num2;
 
-        // Display the result
-        System.out.println("The result : " + result);
+
+    }
+    public static class Calculator {
+
+        public void plus(int a, int b) {
+
+            System.out.println(a + b);
+        }
+
+        public void minus(int a, int b) {
+
+            System.out.println(a - b);
+        }
+
 
     }
 }
